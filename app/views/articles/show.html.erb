@@ -1,4 +1,22 @@
-<h1><%= @article.title %></h1>
-<p><%= @article.details %></p>
-<p><%= link_to "Edit article", edit_article_path %></p>
-<p><%= link_to "Return to articles", articles_path %></p>
+<div class="card-container">
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">
+        <h1><%= @article.title %></h1>
+      </div>
+      <div class="card-icon">
+        <%= link_to edit_article_path do %>
+          <i class="fas fa-pencil-alt"></i>
+        <% end %>
+      </div>
+    </div>
+    <div class="card-bottom">
+      <p><%= @article.content %></p>
+    </div>
+  </div>
+</div>
+<div class="bottom-link">
+  <%= link_to articles_path do %>
+    <i class="fas fa-long-arrow-alt-left"></i> All articles
+  <% end %>
+</div>

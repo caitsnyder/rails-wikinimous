@@ -7,9 +7,20 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/e957eaf03f.js"></script>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <div class="navbar">
+        <div id="logo"><i class="fas fa-kiwi-bird"> kiwi</i></div>
+        <a href="#" id="hamburger"><i class="fas fa-bars"></i></a>
+      </div>
+      <div class="main-container">
+
+        <%= yield %>
+      </div>
+    </div>
   </body>
+
 </html>

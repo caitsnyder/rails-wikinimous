@@ -1,0 +1,39 @@
+
+.label {
+  padding: 5px 0;
+  font-style: italic;
+  font-size: 15px;
+  line-height:15px;
+}
+
+input[type=text], select {
+  width: 100%;
+  align-content: top;
+  font-size: 16px;
+  padding: 10px 18px;
+  margin: 4px 0 10px 0;
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgba(163, 147, 191, 0.5);
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: rgba(63, 54, 79, 0.1), solid, 5px;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: rgba(63, 54, 79, 0.1), solid, 5px;
+}
+

@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  font-family: Open-sans, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  color: #716389;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  text-decoration: none;
+  color: #716389;
+}
+
+a {
+  text-decoration: none;
+  color: #716389;
+}
+
+.bottom-link {
+  width:100%;
+  padding-top: 15px;
+  text-align: center;
+}
+

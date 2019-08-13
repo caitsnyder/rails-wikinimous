@@ -1,5 +1,10 @@
 /* Import fonts from Google Fonts */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
 /* Importing all components file */
-@import url("components/cards.css");
+@import "components/cards.scss";
+@import "components/alignment.scss";
+@import "components/navbar.scss";
+@import "components/navbar.scss";
+@import "components/forms.scss";
